@@ -20,3 +20,11 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--gold);outline-offse
 .partner-logo,.partner-logo:hover{filter:none!important;transition:none!important;border-color:rgba(255,255,255,.13)}
 .partner-logo img,.partner-logos img{filter:none!important;opacity:1!important;mix-blend-mode:normal!important;transition:none!important}
 .partner-logos>div{filter:none!important;transition:none!important}
+
+/* Icon-only contact links: Instagram, WhatsApp and email */
+.contact-socials{display:flex;align-items:center;gap:15px;margin-top:34px}
+.contact-socials a{width:52px;height:52px;border:1px solid rgba(217,43,43,.8);border-radius:50%;display:grid;place-items:center;color:var(--white);background:rgba(255,255,255,.025);transition:background .2s,border-color .2s,transform .2s}
+.contact-socials a:hover{background:var(--red);border-color:var(--red);transform:translateY(-2px)}
+.contact-socials svg{width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.contact-socials .whatsapp-mark{fill:currentColor!important;stroke:none!important}
+@media(max-width:620px){.contact-socials{margin-top:24px}.contact-socials a{width:46px;height:46px}}
