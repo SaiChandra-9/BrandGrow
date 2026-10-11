@@ -34,3 +34,7 @@ html{scroll-padding-top:76px}body{background:#050606;color:#f7f7f5}.site-header{
 .contact-socials a:hover{background:var(--red);border-color:var(--red);transform:translateY(-2px)}
 .contact-socials svg{width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
 @media(max-width:620px){.contact-socials{margin-top:24px}.contact-socials a{width:46px;height:46px}}
+
+/* Use a recognizable WhatsApp brand mark, rather than a generic chat bubble. */
+.whatsapp-mark{fill:currentColor!important;stroke:none!important}
+.social-icons .whatsapp-mark{width:17px;height:17px}
